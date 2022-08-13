@@ -1,0 +1,221 @@
+.works{
+    padding-top: 110px;
+    padding-bottom: 60px;
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+  &__works-row{
+    display: flex;
+  }       
+  &__works-main-left{
+   width: 100%;
+   max-width: 69%;
+//    border: 1px solid green;
+   text-align: center;
+ } 
+ &__works-main-right{
+   width: 100%;
+   max-width: 31%;
+//    border: 1px solid blue;
+   background-color:#ffdd50  ;
+ }
+ &__left-container{
+     padding-top: 60px;
+     padding-bottom: 60px;
+//      padding-right: 60px;
+ }
+ &__works-h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #333333;
+//     line-height: 19.2px;
+    font-family: 'WorkSans-Regular';
+}
+ &__works-p{
+   font-size: 16px;
+   color: #666666;       
+   padding-bottom: 28px;
+   font-family: 'WorkSans-Regular';
+ }
+ &__works-left-row{
+      padding: 28px 0;
+      display: flex;     
+//       justify-content: space-between;
+      text-align: center;
+ }
+ &__works-left-col{
+    width: 100%;
+    max-width: 33.333333%;
+    padding-right:3%;
+ }
+ &__works-img{
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+ }
+
+ &__works-h2{
+    font-size: 18px;
+    color: #333333;
+    margin-top: 21px;
+    margin-bottom: 3px;
+//     line-height: 22.4px;
+    font-family: 'WorkSans-Regular';
+    
+ }
+ &__works-p2{
+    font-size: 16px;
+    line-height: 26.2px;
+    color: #333333;
+    font-family: 'WorkSans-Regular';
+//     text-align: center;
+ }
+ &__works-btn {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'WorkSans-SemiBold';
+    display: inline-block;
+    letter-spacing: 2px;
+    border-color: rgba(0,0,0,0);
+    color: #000000;
+    padding: 5px 44px;
+    background-color: #ffdd50 !important;
+    margin: 28px 0;
+ }
+ &__works-right-container{
+     padding: 60px 30px;
+     
+ }
+ &__works-pl{
+     padding-left: 35px;
+ }
+ &__works-right-list{
+      padding-left: 70px;
+     span{
+          position: relative;
+          display: block;
+          padding-left: 20px;
+          font-family: 'WorkSans-Regular';
+          color: #666666;
+          &:before{
+             position: absolute;
+             content: '';
+             top: 10px;
+             left: 0;
+             width: 6px;
+             height: 6px;
+             background-color: #000000;
+             border-radius: 50px;
+          }
+     }  
+ }
+ &__works-house-bg{
+           margin-top: 32px;
+     img{
+          width: 100%;
+     }     
+ }
+}
+
+@media(max-width:1366px){
+  .works{
+    &__works-main-left{
+          max-width: 64%;    
+    }     
+    &__works-main-right{
+          max-width: 36%;    
+    }
+    &__works-pl{
+       padding-left: 0;
+    }  
+    &__works-right-list{
+        padding-left: 0;      
+    }   
+  }
+}
+@media(max-width:992px){
+  .works{
+    &__works-row{
+       flex-wrap: wrap;       
+    }        
+   // &__works-container{
+   //     padding-left: 70px;
+   //     padding-right: 70px;
+
+   // }
+   &__works-main-left{
+          max-width: 100%;    
+    }     
+    &__works-main-right{
+          max-width: 100%;    
+    }
+    &__works-right-container{
+          padding: 36px 30px;
+    }
+    &__works-house-bg{
+       max-width: 416px;
+       margin-left: auto;
+       margin-right: auto;       
+    }
+    &__works-pl{
+          padding-left: 30px;
+     }
+     &__works-right-list{
+        padding-left: 70px;
+     }
+  }       
+}
+@media(max-width:768px){
+   .works{
+      &__left-container{
+          padding-bottom: 30px;
+      }       
+      &__works-left-row{
+         flex-wrap: wrap;
+         padding-bottom: 0;
+      }       
+     &__works-left-col{
+          max-width: 100%;
+     }
+     &__works-left-col{
+         padding-right: 0%;
+         margin-bottom: 30px;
+     }
+     &__works-h1{
+        padding-left: 0px;      
+        font-size: 36px;
+     }
+     &__marks-h2{
+        margin-top: 26px;
+        margin-bottom: 11px;
+     }
+     &__works-btn{
+         margin-top: 0px;      
+     }
+     &__works-right-list{
+          padding-left: 30px;
+     }
+     &__works-btn{
+         padding: 5px 32px;
+         margin-bottom: 15px;      
+     }
+   }      
+}
+@media(max-width:576px){
+   .works{
+          padding-top:0px ;
+      // &__works-container{
+      //     padding-left: 15px;
+      //     padding-right: 15px;
+      // }
+      
+   }       
+}

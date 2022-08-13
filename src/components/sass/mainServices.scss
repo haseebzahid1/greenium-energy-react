@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+// font-family: 'Lexend Deca', sans-serif;
+
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+.mianservices {
+    padding-top: 64px;
+    width: 100%;
+    position: relative;
+
+    &__mianservices-container {
+        width: 100%;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    &__mianservices-bg-img {
+        width: 100%;
+        height: 380px;
+        z-index: 1;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-color: silver;
+            background-size: cover;
+            background-repeat: no-repeat;
+            object-fit: cover;
+        }
+    }
+
+    &__mianservices-header-content {
+        position: absolute;
+        bottom: 28%;
+        left: 10%;
+        z-index: 4;
+    }
+
+    &__mianservices-title-h1 {
+        font-size: 80px;
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+
+    }
+
+}
+
+
+
+@media(max-width:992px){
+    .mianservices{
+        &__mianservices-title-h1{
+            font-size: 50px;
+        }
+        &__circleText-h2{
+            font-size: 27px;
+        }
+    }
+
+   
+}
+@media(max-width:768px){
+    .mianservices{
+        &__mianservices-bg-img{
+            height: 300px;
+        }
+       
+    }
+}
+
+@media(max-width:576px){
+    .mianservices{
+        &__mianservices-bg-img{
+            height: 260px;
+        }
+        &__mianservices-title-h1{
+            font-size: 35px;
+        }
+    }
+      
+}
+

@@ -1,0 +1,113 @@
+.aboutServices {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    &__aboutServices-container {
+        background-image: url(../../../public/assets/img/services-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 60px 0px;
+    }
+
+    &__aboutServices-row {
+        display: flex;
+    }
+
+    &__aboutServices-col {
+        width: 100%;
+        max-width: 33.333333%;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        
+        min-height: 200px;
+    }
+
+    &__aboutServices-card {
+        text-align: center;
+        
+    }
+
+    &__card-header {
+        background-color: #f7f7f7;
+        padding: 40px;
+    }
+
+    &__card-icon {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f33f3f;
+        color: #fff;
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+
+    &__card-content {
+        background-color: #fff;
+        padding: 40px 30px;
+       
+        h4 {
+            font-size: 17px;
+            color: #1a6692;
+            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            color: #4a4a4a;
+            line-height: 24px;
+            margin-bottom: 25px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        a {
+            background-color: #f33f3f;
+            color: #fff;
+            font-size: 14px;
+            text-transform: capitalize;
+            font-weight: 300;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: all 0.3s;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .aboutServices{
+        &__aboutServices-col {
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 2rem;
+        }
+    }
+}
+@media(max-width:768px){
+    .aboutServices{
+        &__aboutServices-row{
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+        &__aboutServices-col {
+            max-width: 50%;
+        }
+    }
+}
+@media(max-width:576px){
+    .aboutServices{
+        &__aboutServices-col {
+            max-width: 100%;
+        }
+    }
+   
+}

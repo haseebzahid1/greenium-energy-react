@@ -1,0 +1,143 @@
+.installation {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F5F5F5;
+
+    &__installation-row {
+        display: flex;
+    }
+
+    &__installation-col {
+        width: 100%;
+        max-width: 50%;
+        // border: 1px solid red;
+    }
+    &__installation-img{
+        width: 100%;
+        height: 345px;
+        padding-left: 4%;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__installation-img-2{
+        padding-left: 0%;
+        padding-right: 4%;
+    }
+    &__installation-content{
+        padding-right:7% ;
+    }
+    &__installation-content-2{
+        padding-right: 0%;
+        padding-left: 7%;
+    }
+    &__installation-h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #2c352d;
+        font-size: 30px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+        margin-bottom: 45px;
+        // font-family: 'Montserrat', sans-serif;
+    }
+
+    &__installation-p {
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+        color: #666666;
+        font-size: 16px;
+        line-height: 1.7;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+        // font-family: 'Montserrat', sans-serif;
+    }
+
+    &__installation-a {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 8px 28px;
+        background-color: #4daf40;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background-color: #419436;
+        }
+
+    }
+}
+
+@media(max-width:768px){
+
+    
+    .installation{
+        &__installation-row{
+            flex-wrap: wrap;
+        }
+        &__installation-col {
+            max-width: 100%;
+        }
+        &__installation-img,
+        &__installation-img-2,
+        &__installation-content,
+        &__installation-content-2{
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+        &__installation-img{
+            margin-top: 3rem;
+        }
+        &__installation-h1-2{
+            margin-top: 2rem;
+        }
+    }
+    }
+
+    .installation-2{
+        padding-top: 0px;
+    }
+    .installation-3{
+        
+    }
+    .installation-4{
+        padding-top: 0px;
+      
+    
+}
+@media(max-width:576px){
+    .mianservices{
+        &__mianservices-bg-img{
+            height: 260px;
+        }
+        &__mianservices-title-h1{
+            font-size: 35px;
+        }
+    }
+   
+    
+    .installation{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    &__installation-img{
+        height: 212px;
+        margin-top: 2rem;
+    }
+    &__installation-h1{
+        margin-bottom: 25px;
+        font-size: 27px;
+    }
+    &__installation-p{
+        line-height: 1.5;
+    }
+    }
+   
+}
+
+

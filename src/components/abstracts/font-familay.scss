@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+// font-family: 'Poppins', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+//font-family: 'Oswald', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+//font-family: 'Montserrat', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+// font-family: 'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+// font-family: 'Poppins', sans-serif;
+
+@font-face{
+    font-family: 'WorkSans-Regular';
+    src: url(../../../public/font-family-workscans/WorkSans-Regular.ttf);           //w-400
+}
+@font-face{
+    font-family: 'WorkSans-Medium';
+    src: url(../../../public/font-family-workscans/WorkSans-Medium.ttf);           //w-400
+}
+
+
+@font-face{
+    font-family: 'WorkSans-SemiBold';
+    src: url(../../../public/font-family-workscans/WorkSans-SemiBold.ttf)           //w-600
+}
+
+@font-face{
+    font-family: 'WorkSans-Bold';
+    src: url(../../../public/font-family-workscans/WorkSans-Bold.ttf)             //w-500
+}
+
+
+.font-worksans-r{
+    font-family: 'WorkSans-Regular';
+}
+.font-worksans-sb{
+    font-family: 'WorkSans-SemiBold';
+}
+
+
+@font-face {
+    font-family: 'Gontserrat-Regular';
+    src: url("../../../public/font-family-gontserrat/Gontserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Gontserrat-Bold';
+    src: url("../../../public/font-family-gontserrat/Gontserrat-Bold.ttf");
+}
+
+
+.font-gontserrat-r{
+    font-family: 'Gontserrat-Regular';
+}
+.font-gontserrat-b{
+    font-family: 'Gontserrat-Bold';
+}
