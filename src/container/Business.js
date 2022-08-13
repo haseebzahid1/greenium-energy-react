@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/sass/business.scss'
+import { solorSolution } from './Portfolio'
 
 const Business = () => {
   return (
@@ -8,12 +9,12 @@ const Business = () => {
     <div class="business__business-container">
       <div class="container-fluid business__container-position">
         <div class="business__business-content">
-          <h1 class="business__business-h1">Smart Solor Solution<br />for Your Bsiness</h1>
+          <h1 class="business__business-h1">{solorSolution.title}<br />{solorSolution.title1}</h1>
           <p class="business__business-p">
-            Improve Business Productivity and Performance with No Power Outages & Lowest per unit Electricity Cost!
+            {solorSolution.desc}
           </p>
           <div class="business__business-btn">
-            <a href="#.">Learn More</a>
+            <a href="#.">{solorSolution.btn}</a>
           </div>
         </div>
       </div>

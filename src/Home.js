@@ -10,7 +10,7 @@ import Works from './container/Works'
 
 const Home = () => {
   return (
-    <>
+    <div>
     <Works />
    <Business />
    <Customer />
@@ -18,7 +18,7 @@ const Home = () => {
    <Business2 />
    <Globe />
    <Footer />
-    </>
+    </div>
   )
 }
 

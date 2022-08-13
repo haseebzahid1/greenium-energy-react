@@ -1,5 +1,7 @@
 import React from 'react'
 import '../components/sass/counter.scss'
+import { counter } from './Portfolio'
+
 
 const Counter = () => {
   return (
@@ -8,66 +10,24 @@ const Counter = () => {
     <div class="counter__counter-container">
       <div class="container-fluid ">
         <div class="counter__counter-row">
-          <div class="counter__counter-col">
+          {counter.counterCard.map((counter)=>{
+            return <div class="counter__counter-col">
             <div class="counter__counter-content">
               <div class="counter__counter-icon">
-                <i class="fal fa-lightbulb"></i>
+                <i class={counter.iocn}></i>
               </div>
               <div>
                 <h1 class="counter__counter-h1">
-                  <span class="counter-2">100</span>
+                  <span class="counter-2">{counter.totalCount}</span>
                   <span class="counter__plus">+</span>
                 </h1>
-                <span class="counter__couter-plus">NSTALLED CAPACITY</span>
+                <span class="counter__couter-plus">{counter.title}</span>
               </div>
              
             </div>
           </div>
-          <div class="counter__counter-col">
-            <div class="counter__counter-content">
-              <div class="counter__counter-icon">
-                <i class="an an-home"></i>
-              </div>
-              <div>
-                <h1 class="counter__counter-h1">
-                  <span class="counter-2">250</span>
-                  <span class="counter__plus">+</span>
-                </h1>
-                <span class="counter__couter-plus">HOUSEHOLDS</span>
-              </div>
-             
-            </div>
-          </div>
-          <div class="counter__counter-col">
-            <div class="counter__counter-content">
-              <div class="counter__counter-icon">
-                <i class="an an-hand-holding-seedling"></i>
-              </div>
-              <div>
-                <h1 class="counter__counter-h1">
-                  <span class="counter-2">360</span>
-                  <span class="counter__plus">+</span>
-                </h1>
-                <span class="counter__couter-plus">ENERGY SAVED</span>
-              </div>
-             
-            </div>
-          </div>
-          <div class="counter__counter-col">
-            <div class="counter__counter-content">
-              <div class="counter__counter-icon">
-                <i class="fal fa-radiation"></i>
-              </div>
-              <div>
-                <h1 class="counter__counter-h1">
-                  <span class="counter-2">450</span>
-                  <span class="counter__plus">+</span>
-                </h1>
-                <span class="counter__couter-plus">AREA COVERED</span>
-              </div>
-             
-            </div>
-          </div>
+          })}
+          
         </div>
       </div>
     </div>
