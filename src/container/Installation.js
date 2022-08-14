@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/sass/installation.scss'
 
-const Installatioin = () => {
+const Installation = () => {
   return (
     <div>
     <section class="installation installation-1">
@@ -81,7 +81,7 @@ const Installatioin = () => {
       <div class="installation__installation-row">
         <div class="installation__installation-col">
           <div class="installation__installation-img installation__installation-img-2">
-            <img src="assets/img/installation-4.jpg" alt="" /> 
+            <img src="assets/img/installation-4.jpg" alt="" />
           </div>
         </div>
         <div class="installation__installation-col">
@@ -103,4 +103,4 @@ const Installatioin = () => {
   )
 }
 
-export default Installatioin
+export default Installation
