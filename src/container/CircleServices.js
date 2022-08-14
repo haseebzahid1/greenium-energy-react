@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/sass/circleText.scss'
+import { circleText } from './Portfolio'
 
 const CircleServices = () => {
   return (
@@ -7,7 +8,7 @@ const CircleServices = () => {
   <div class="container-fluid">
     <div class="circleText__circleText-content">
       <h2 class="circleText__circleText-h2">
-        Circular Energy is a progressive energy company that offers electricity services to residential and commercial customers across the USA.
+        {circleText.title}
       </h2>
     </div>
   </div>

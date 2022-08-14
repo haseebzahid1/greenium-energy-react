@@ -81,7 +81,7 @@ const Installatioin = () => {
       <div class="installation__installation-row">
         <div class="installation__installation-col">
           <div class="installation__installation-img installation__installation-img-2">
-            <img src="assets/img/installation-4.jpg" alt="" /> >
+            <img src="assets/img/installation-4.jpg" alt="" /> 
           </div>
         </div>
         <div class="installation__installation-col">

@@ -9,6 +9,7 @@ const Customer = () => {
     <div class="customer__customer-container">
       <div class="container-fluid ">
         <div class="customer__top-content">
+        
           <p class="customer__customer-top-p">{price.smallTitle}</p>
           <h1 class="customer__customer-h1">{price.mainTitle}</h1>
           
