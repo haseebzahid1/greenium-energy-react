@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/sass/installation.scss'
+import { installation, installation1, installation2, installation3 } from './Portfolio'
 
 const Installation = () => {
   return (
@@ -10,17 +11,17 @@ const Installation = () => {
         <div class="installation__installation-col">
          <div class="installation__installation-content">
           <h1 class="installation__installation-h1">
-            Solar Installation
+            {installation.title}
           </h1>
           <p class="installation__installation-p">
-            Over the years we've been involved with the renewable energy business, we've seen thousands upon thousands of businesses of all sizes adopt eco-friendly, green energy options. Starting with office buildings and hotels and all the way to administrative buildings, everyone adapts to modern-day energy solutions!
+            {installation.desc}
           </p>
-          <a href="#." class="installation__installation-a">Read More</a>
+          <a href="#." class="installation__installation-a">{installation.btn}</a>
          </div>
         </div>
         <div class="installation__installation-col">
           <div class="installation__installation-img">
-            <img src="assets/img/installation-1.jpg" alt="" />
+            <img src={installation.img} alt="" />
           </div>
         </div>
       </div>
@@ -32,18 +33,18 @@ const Installation = () => {
       <div class="installation__installation-row">
         <div class="installation__installation-col">
           <div class="installation__installation-img installation__installation-img-2">
-            <img src="assets/img/installation-2.jpg" alt="" />
+            <img src={installation1.img} alt="" />
           </div>
         </div>
         <div class="installation__installation-col">
          <div class="installation__installation-content installation__installation-content-2">
           <h1 class="installation__installation-h1 installation__installation-h1-2">
-            Solar Operations & Maintenance Services
+            {installation1.title}
           </h1>
           <p class="installation__installation-p">
-            When it comes to getting (and paying) the energy bills at your household, the rate matters. This, on par with undeniable eco-friendliness of the solar-powered energy is what already made thousands upon thousands of individuals across America to go green.
+            {installation1.desc}
           </p>
-          <a href="#." class="installation__installation-a">Read More</a>
+          <a href="#." class="installation__installation-a">{installation1.btn}</a>
          </div>
         </div>
        
@@ -58,17 +59,17 @@ const Installation = () => {
         <div class="installation__installation-col">
          <div class="installation__installation-content">
           <h1 class="installation__installation-h1">
-            Solar O&M Packages
+            {installation2.title}
           </h1>
           <p class="installation__installation-p">
-            While as of today alternative energy sources are more widely adopted by industrial and Industrial Solar entities, rather than individuals and households, still wind energy holds #3 for residential power supply. With thousands of new powerful wind turbines being set up across America every single year, it's clear that this is an industry of the future!
+            {installation2.desc}
           </p>
-          <a href="#." class="installation__installation-a">Read More</a>
+          <a href="#." class="installation__installation-a">{installation2.btn}</a>
          </div>
         </div>
         <div class="installation__installation-col">
           <div class="installation__installation-img">
-            <img src="assets/img/installation-3.jpg" alt="" />
+            <img src={installation2.img} alt="" />
           </div>
         </div>
       </div>
@@ -81,18 +82,18 @@ const Installation = () => {
       <div class="installation__installation-row">
         <div class="installation__installation-col">
           <div class="installation__installation-img installation__installation-img-2">
-            <img src="assets/img/installation-4.jpg" alt="" />
+            <img src={installation3.img} alt="" />
           </div>
         </div>
         <div class="installation__installation-col">
          <div class="installation__installation-content installation__installation-content-2">
           <h1 class="installation__installation-h1 installation__installation-h1-2">
-            Solar Engineering & Design
+            {installation.title}
           </h1>
           <p class="installation__installation-p">
-            When wind turbines are concerned, factories represent the biggest chunk of its market share. Used by all kinds of industries, all across the globe, for factories big and small, the wind turbines are also super efficient. This is why they are so ever-popular!
+            {installation3.desc}
           </p>
-          <a href="#." class="installation__installation-a">Read More</a>
+          <a href="#." class="installation__installation-a">{installation3.btn}</a>
          </div>
         </div>
        

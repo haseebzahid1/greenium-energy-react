@@ -300,7 +300,7 @@ installation = {
     btn:"Read More",
     link:"#.",
     img:"assets/img/installation-1.jpg",
- 
+    class:"installation installation-1",
     alt:""
 },
 
@@ -310,7 +310,7 @@ installation1 = {
     btn:"Read More",
     link:"#.",
     img:"assets/img/installation-2.jpg",
-   
+    class:"installation installation-bg-color installation-2",
     alt:""
 },
 installation2 = {
@@ -319,7 +319,16 @@ installation2 = {
     btn:"Read More",
     link:"#.",
     img:"assets/img/installation-3.jpg",
-    
+    class:"installation installation-3",
+    alt:""
+},
+installation3 = {
+    title:"Solar Engineering & Design",
+    desc:"When wind turbines are concerned, factories represent the biggest chunk of its market share. Used by all kinds of industries, all across the globe, for factories big and small, the wind turbines are also super efficient. This is why they are so ever-popular!",
+    btn:"Read More",
+    link:"#.",
+    img:"assets/img/installation-4.jpg",
+    class:"installation installation-4",
     alt:""
 },
 
@@ -330,4 +339,4 @@ getServices = {
     link:"#."
 }
 
-export {work,solorSolution,price,counter,solorSolution2,solorText,ourBackground,team,aboutServices,renewable,circleText,installation,installation1,installation2,getServices}
+export {work,solorSolution,price,counter,solorSolution2,solorText,ourBackground,team,aboutServices,renewable,circleText,installation,installation1,installation2,installation3,getServices}

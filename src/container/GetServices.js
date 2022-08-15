@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/sass/getServices.scss'
+import { getServices } from './Portfolio'
 
 const GetServices = () => {
   return (
@@ -7,9 +8,9 @@ const GetServices = () => {
     <div class="get__get-container">
       <div class="container-fluid">
         <div class="get__get-content">
-          <h1 class="get__get-h1">Get free consultancy about your project</h1>
-          <p class="get__get-p">We work hard to earn the trust of our customers because we believe strong relationships and long-term partnerships are fundamental to our sustained success. Drop us a line to get more information about the project.</p>
-          <a href="#." class="get__get-a">Ask us a question</a>
+          <h1 class="get__get-h1">{getServices.title}</h1>
+          <p class="get__get-p">{getServices.desc}</p>
+          <a href={getServices.link} class="get__get-a">{getServices.btn}</a>
         </div>
       </div>
     </div>
